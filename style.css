@@ -7,39 +7,50 @@ h1,h2,h3,p, a, li, ol {
   font-family: sans-serif;
 }
 
-h1{
-  font-size: 48px;
+header{
+  background-color: #E03616;
+  padding-top: 0px;
 }
 
-h2 {
-  font-size: 36px;
+header h1, header h2{
+  color: #fff;
 }
+
+h1{
+   font-size: 48px; 
+}
+ h2 {
+  font-size: 24px;
+}
+
+
 
 li{
   font-size: 14px;
   color: #3B7080;
 }
 
-header img{
-  background-color: #FFFFFC;
+header{
+  background-color: #E03616;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0%;
+}
+
+h1, h2{
+  text-align: center;
 }
 
 main{
   background-color: #fff;
 }
-.circle-crop{
+img.circle-crop-center{
   border-radius: 50%;
-  object-position;
-}
-
-.center-img{
-object-position: center;
+  object-position: 50% 50%;
 }
 
 .accent-background{
-  background-color: #E03616;
+
   color:  #fff;
 }
 
@@ -48,8 +59,15 @@ nav {
 }
 
 footer p{
+  background-color: #E03616;
+  color:  #fff;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text
+  height: 50px;
 }
+
 a:link {
   color: #5998C5;
 }
